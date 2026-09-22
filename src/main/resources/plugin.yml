@@ -1,0 +1,14 @@
+name: WardenCrossbow
+version: '${version}'
+main: me.wardencrossbow.WardenCrossbowPlugin
+api-version: '1.21'
+
+commands:
+  wardenbow:
+    description: Выдать Скалковый арбалет
+    usage: /wardenbow
+    permission: wardencrossbow.give
+
+permissions:
+  wardencrossbow.give:
+    default: op
